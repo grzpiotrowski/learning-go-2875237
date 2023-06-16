@@ -10,8 +10,8 @@ import (
 
 func main() {
 
-	float1 := getUserInput("Value 1:")
-	float2 := getUserInput("Value 2:")
+	float1 := getUserInput("Value 1: ")
+	float2 := getUserInput("Value 2: ")
 
 	reader := bufio.NewReader(os.Stdin)
 
